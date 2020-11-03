@@ -1,0 +1,30 @@
+    //查看类大纲在view工具栏上调出来
+    //查看类的继承关系也是在上面调出来的（ctrl+h）
+
+    //Alt+回车 导入包,自动修正
+    //Alt+Insert 生成代码(如get,set方法,构造函数等)
+    //Ctrl+Alt+Space 类名或接口名提示
+    //Ctrl+Shift+Space 自动补全代码
+    //Ctrl+Alt+L  格式化代码
+    //Ctrl+Alt+O 优化导入的类和包
+
+    //Ctrl+N  查找类
+    //Ctrl+Shift+N 查找文件
+
+    //Ctrl+R 替换文本
+    //Ctrl+F 查找文本
+    //Ctrl+空格 代码提示
+    //Ctrl+P 方法参数提示
+    //Ctrl+Shift+Alt+N 查找类中的方法或变量
+    //Alt+Shift+C 对比最近修改的代码
+
+    注意事项：
+    //首先我们这个springboot的项目是以架包的方式来创建的，不是web项目
+    //其次我们还是用的内置的tomcat，它默认是不支持jsp的
+    //那我们就只能有.html的静态页面，这样开发很不好，它是静态的
+    //我们是用模板引擎来搞动态页面的
+    //什么是模板引擎，jsp其实就是一个模板引擎，springboot给我们推荐：Thymeleaf
+    //那我们怎么引用thymeleaf呢，在springboot里面，引用谁，我们都是在pom.xml里面引入一个start就可
+    //springboot的版本是2.3.4
+    //添加了asserts文件包进来后，访问不了里面的静态资源可以clean一下maven或者reimport一下maven或者右边的maven视图上面工具栏的第二个图标点一下
+    //没有图标的可以ctrl+F5刷新一下缓存
